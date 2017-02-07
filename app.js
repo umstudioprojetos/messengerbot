@@ -520,6 +520,12 @@ function sendFileMessage(recipientId) {
 function sendTextMessage(recipientId, messageText) {
 
   console.log("A mensagem que chegou foi:" + messageText);
+
+  if(messageText == "Tets")
+  {
+    messageText = "Paaaaah!";
+  }
+
   var messageData = {
     recipient: {
       id: recipientId
