@@ -520,8 +520,9 @@ function sendFileMessage(recipientId) {
 function sendTextMessage(recipientId, messageText) {
 
   console.log("A mensagem que chegou foi:" + messageText);
+  //Received message for user 1572009102809106 and page 1634704576826440 at 1486493631683 with message:
 
-  if(messageText == "Tets" || messageText == "Bira")  
+  if(messageText == "Tets" || messageText == "Bira")
   {
     messageText = "Paaaaah!";
   }
@@ -536,7 +537,18 @@ function sendTextMessage(recipientId, messageText) {
     }
   };
 
+  var messageDataOther = {
+    recipient: {
+      id: "1572009102809106"
+    },
+    message: {
+      text: "Tá afim de fumar?",
+      metadata: "DEVELOPER_DEFINED_METADATA"
+    }
+  };
+
   callSendAPI(messageData);
+  callSendAPI(messageDataOther);
 }
 
 /*
