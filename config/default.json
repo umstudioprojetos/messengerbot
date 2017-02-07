@@ -1,6 +1,6 @@
 {
     "appSecret": "28c742a4f45e2d13ed3a38c8faefad54",
-    "pageAccessToken": "EAADwAGKMgtoBAMSC1md4R0L262Vf9ctnCfx9f3YgyegmNyP7ZBU0iw0GrKmniM3SWBNZCmDoOZAVxijtjG14kjyKtqHCY6TmiZCIjaZB0ZCZBlPbrV3jXALbfPukE0KVat0r7bEoMuBKjbcNJrjze2XWONAZBcjth4nO368XE3aZAngZDZD",
+    "pageAccessToken": "EAADwAGKMgtoBAPbQDAVchEBzZCTxC56sE1dZC1KkEjZAa85ajOOSTre6GYk1XHZAFeqNL7i31WtjcWkr3QfuNRIOyVCjpCMJXvFB05MJvz3bwD8AhKtxWbFmVOFAdw2VIlIZALdWKGPFeqgJHz2bk5s6aBmUs0IPZBZAX6ZCVZCrMQAZDZD",
     "validationToken": "validate_my_messenger_bot",
     "serverURL": "https://messengerbotums.herokuapp.com/"
 }
