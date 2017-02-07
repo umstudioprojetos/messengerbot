@@ -521,7 +521,7 @@ function sendTextMessage(recipientId, messageText) {
 
   console.log("A mensagem que chegou foi:" + messageText);
 
-  if(messageText == "Tets" || messageText == "Bira")
+  if(messageText == "Tets" || messageText == "Bira") 
   {
     messageText = "Paaaaah!";
   }
