@@ -221,8 +221,7 @@ function receivedMessage(event) {
   var timeOfMessage = event.timestamp;
   var message = event.message;
 
-  console.log("Received message for user %d and page %d at %d with message:", 
-    senderID, recipientID, timeOfMessage);
+  console.log("Received message for user %d and page %d at %d with message:",senderID, recipientID, timeOfMessage);
   console.log(JSON.stringify(message));
 
   var isEcho = message.is_echo;
@@ -519,6 +518,8 @@ function sendFileMessage(recipientId) {
  *
  */
 function sendTextMessage(recipientId, messageText) {
+
+  console.log("A mensagem que chegou foi:" + messageText);
   var messageData = {
     recipient: {
       id: recipientId
